@@ -1,0 +1,311 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+
+@font-face {
+    font-family: "Champagne";
+    src: url("/fonts/nymphont_champagne-and-limousines");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Patua One', cursive;
+}
+
+main {
+    background: white;
+}
+
+/*Purchase Menu*/
+.wrapper {
+    border-top: 3px solid #c20c19;
+    margin: 0 auto;
+    display: flex;
+    width: 80%;
+    padding: 15px 0 50px 0;
+}
+
+/*!* Title **/
+.wrapper-title {
+    display: flex;
+    justify-content: center;
+}
+
+.items-title {
+    justify-content: center;
+    text-align: center;
+    cursor: default;
+    font-size: 3em;
+    color: black;
+    text-shadow: 1px 1px white;
+}
+
+.items-navigation {
+    width: 30%;
+    margin-top: 65px;
+}
+
+.nav-menu-filters {
+    color: black;
+    text-transform: uppercase;
+    /*text-shadow: 1px 1px white;*/
+    padding-left: 40px;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    cursor: default;
+}
+
+.nav-menu {
+    line-height: 45px;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.nav-menu li {
+    text-transform: uppercase;
+    font-size: 1em;
+    list-style-type: none;
+
+}
+
+.nav-menu li:hover {
+    background: #c20c19;
+    cursor: pointer;
+}
+
+.nav-menu li a {
+    padding: 0 10px;
+    text-shadow: 0 -1px #080808;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.menu-purchase {
+    width: 70%;
+    flex-wrap: wrap;
+    margin-top: 37px;
+}
+
+.thumbnail {
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+}
+
+.vafla-items img {
+    transition: all 0.8s ease;
+}
+
+.vafla-items img:hover {
+    width: 200px;
+    height: 220px;
+    cursor: pointer;
+}
+
+.vafla-items li {
+    display: inline-block;
+    padding: 12px 5px;
+    margin: 12px 10px;
+    box-shadow: 0 10px 15px -5px rgba(0, 0, 0, 0.25);
+}
+
+.vafla-title {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    text-shadow: 1px 1px #bbbbbb;
+    text-transform: uppercase
+}
+
+.menu-purchase .vafla-items a {
+    text-decoration: none;
+    color: black;
+    background: white;
+    padding: 7px 96px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0 1px #cbcbcb;
+    outline: none;
+    border: 1px solid #cbcbcb;
+}
+
+.menu-purchase .vafla-items a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    background: #c20c19;
+    text-shadow: 1px 0 black;
+    padding: 7px 96px;
+    text-align: center;
+    border: 1px solid #cbcbcb;
+}
+
+.pricetag {
+    text-align: center;
+
+}
+
+/*Map section*/
+.map {
+    border-top: 3px solid #c20c19;
+    border-bottom: 3px solid #c20c19;
+    text-align: center;
+    background: #bbbbbb;
+    opacity: 0.9;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.map-section {
+    background: #bbbbbb;
+}
+
+.map-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.4em;
+    padding: 10px 0;
+    color: black;
+    text-shadow: 1px 1px white;
+}
+
+/*Footer*/
+.footer {
+    display: flex;
+    border-bottom: 1px solid black;
+    background: black /*rgb(60, 63, 73)*/;
+    color: white;
+}
+
+.footer section {
+    margin: 10px 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.firstsect ul {
+    /*background: #4B4E58;*/
+    padding: 3px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+}
+
+ul.footer-links li {
+    display: block;
+    margin: 10px;
+    font-size: 0.7em;
+}
+
+ul.footer-links li a {
+    text-shadow: 1px 1px #080808;
+    font-size: 1.1em;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+ul.footer-links li a:hover {
+    text-shadow: 0 1px #080808;
+    color: #c20c19;
+}
+
+.secondsect {
+    flex-direction: column;
+}
+
+.footer-logo {
+    width: 150px;
+    height: 140px;
+    margin: 0 auto;
+    background: url("../images/8391-500x500.png"), center;
+    background-size: cover;
+}
+
+.copyright {
+    text-shadow: 0 1px #080808;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.thirdsect {
+    display: block;
+}
+
+.foot-title {
+    font-size: 1.2em;
+    text-shadow: 1px 1px #080808;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #959BA5;
+    text-align: center;
+    cursor: default;
+}
+
+.foot-socialmedia {
+    text-align: center;
+    text-shadow: 0 2px #080808;
+}
+
+.foot-socialmedia li {
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px 6px;
+}
+
+.foot-socialmedia li a {
+    font-size: 1.1em;
+    color: white;
+}
+
+.foot-socialmedia a:hover {
+    color: #c20c19;
+    cursor: pointer;
+}
+
+.foot-telephone {
+    margin-left: 40px;
+    text-align: center;
+    text-shadow: 1px 2px #080808;
+}
+
+.foot-telephone li {
+    font-size: 1em;
+    display: inline-block;
+    text-decoration: none;
+    cursor: default;
+    margin: 10px 4px;
+}
+
+.foot-mail {
+    text-align: center;
+    margin-left: 107px;
+    text-shadow: 1px 2px #080808;
+}
+
+.foot-mail li {
+    font-size: 1.03em;
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px 4px;
+}
+
+.foot-mail .email {
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+}
+
+.foot-mail .email:hover {
+    color: #c20c19;
+    cursor: pointer;
+}
