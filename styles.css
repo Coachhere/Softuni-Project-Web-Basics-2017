@@ -22,7 +22,7 @@ main {
 
 /*Purchase Menu*/
 .wrapper {
-    border-top: 3px solid #c20c19;
+   /* border-top: 3px solid #c20c19;*/
     margin: 0 auto;
     display: flex;
     width: 80%;
