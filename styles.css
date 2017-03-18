@@ -112,6 +112,28 @@ main {
     cursor: pointer;
 }
 
+.content {
+    overflow: hidden;
+    position: relative;
+}
+
+.content .description {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    top: 20px;
+    opacity: 0.6;
+    background: #d9d9d9;
+    left: 0;
+    margin-top: 250px;
+    transition: margin-top 0.2s 0.2s;
+}
+
+.content:active .description {
+    margin-top: 0;
+    cursor: pointer;
+}
+
 .vafla-items li {
     display: inline-block;
     padding: 12px 5px;
