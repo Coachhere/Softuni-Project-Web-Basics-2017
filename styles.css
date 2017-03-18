@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: "Champagne";
-    src: url("Fonts");
+    src: url("fonts");
 }
 
 * {
@@ -19,6 +19,8 @@ body {
 main {
     background: white;
 }
+
+/*Slider*/
 
 /*Purchase Menu*/
 .wrapper {
