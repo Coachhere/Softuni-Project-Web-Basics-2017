@@ -342,6 +342,27 @@ header {
     text-decoration: none;
     color: white;
 }
+
+.icon {
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-top:15px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.icon_button {
+    border: none;
+    background: none;
+    padding: 0;
+    outline: none;
+    float: right;
+
+}
+#buttons {
+    float: right;
+}
 .about-us {
     font-family: Champagne, sans-serif;
     background: url("images/about_us_background.png") no-repeat center;
