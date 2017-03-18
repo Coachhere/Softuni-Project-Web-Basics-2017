@@ -230,7 +230,7 @@ ul.footer-links li a:hover {
     width: 150px;
     height: 140px;
     margin: 0 auto;
-    background: url("../images/8391-500x500.png"), center;
+    background: url("images/8391-500x500.png"), center;
     background-size: cover;
 }
 
