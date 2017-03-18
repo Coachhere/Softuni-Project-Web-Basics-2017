@@ -31,7 +31,32 @@
         <h1 class="items-title">Vafli</h1>
         <div class="items-navigation">
             <script>
+                $(function() {
+                    var isClicked = false;
+                    $('.scrollTop').css("display","none");
+                    $(window).scroll(function() {
+                        if (isClicked == false){
+                            if ($(this).scrollTop() > 300) {$('.scrollTop').show();}
+                            else {$('.scrollTop').hide();}
+                        }
+                    });
 
+                    $('.scrollTop').click(function() {
+                        isClicked = true;
+                        $('.scrollTop').fadeOut(500);
+                        $('html, body').animate({
+                            scrollTop : 0
+                        }, 800, function(){
+                            isClicked = false;
+                        });
+                    });
+                    $('.scrollTop').on("mouseenter",function() {
+                        $('.scrollTop').css({opacity:'1.0'});
+                    });
+                    $('.scrollTop').on("mouseleave",function() {
+                        $('.scrollTop').css({opacity:'0.8'});
+                    });
+                });
             </script>
             <h2 class="nav-menu-filters">Filters</h2>
             <ul class="nav-menu">
