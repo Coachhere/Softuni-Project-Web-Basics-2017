@@ -342,3 +342,42 @@ header {
     text-decoration: none;
     color: white;
 }
+.about-us {
+    font-family: Champagne, sans-serif;
+    background: url("images/about_us_background.png") no-repeat center;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.about-us-info {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+    background: rgba(243, 131, 38, 0.4);
+    color: #ffffff;
+    font-weight: 900;
+    border-top: 4px double #ff6d47;
+    border-bottom: 4px double #ff6d47;
+    text-shadow: 1px 2px #080808;
+}
+
+.about-us-info h3 {
+    font-weight: 900;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+
+.about-us-info p {
+    font-weight: 400;
+    font-size: 1.2em;
+    /* font-style: italic;*/
+    margin-top: 15px;
+    margin-bottom: 10px;
+} 
+
+.about-us-info p:first-letter {
+    text-transform: capitalize;
+}
