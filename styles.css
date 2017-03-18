@@ -1,9 +1,9 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-@import url('https://fonts.googleapis.com/css?family=Patua+One');
+/*@import url('https://fonts.googleapis.com/css?family=Patua+One');*/
 
 @font-face {
     font-family: "Champagne";
-    src: url("/fonts/nymphont_champagne-and-limousines");
+    src: url("Fonts");
 }
 
 * {
@@ -13,7 +13,7 @@
 }
 
 body {
-    font-family: 'Patua One', cursive;
+    font-family: 'Champagne', cursive;
 }
 
 main {
@@ -22,7 +22,7 @@ main {
 
 /*Purchase Menu*/
 .wrapper {
-    border-top: 3px solid #c20c19;
+    border-top: 3px solid #933C3F;
     margin: 0 auto;
     display: flex;
     width: 80%;
@@ -39,22 +39,20 @@ main {
     justify-content: center;
     text-align: center;
     cursor: default;
-    font-size: 3em;
+    font-size: 2.4em;
     color: black;
     text-shadow: 1px 1px white;
 }
 
 .items-navigation {
-    width: 30%;
+    width: 34%;
     margin-top: 65px;
 }
 
 .nav-menu-filters {
     color: black;
-    text-transform: uppercase;
-    /*text-shadow: 1px 1px white;*/
     padding-left: 40px;
-    font-size: 1.4em;
+    font-size: 1.6em;
     margin-bottom: 10px;
     cursor: default;
 }
@@ -63,19 +61,19 @@ main {
     line-height: 45px;
     width: 50%;
     height: 100%;
-    text-align: center;
+    text-align: left;
     margin-left: 40px;
 }
 
 .nav-menu li {
-    text-transform: uppercase;
     font-size: 1em;
+    font-weight: 500;
     list-style-type: none;
-
 }
 
 .nav-menu li:hover {
-    background: #c20c19;
+    font-weight: 500;
+    background: #933C3F;
     cursor: pointer;
 }
 
@@ -97,8 +95,8 @@ main {
     height: 200px;
     border: 1px solid white;
 }
-.vafla-items{
-    width: 95%;
+
+.vafla-items {
     border-top: 3px solid black;
 }
 
@@ -123,8 +121,9 @@ main {
     text-align: center;
     font-size: 1.1rem;
     margin-bottom: 10px;
+    font-weight: 600;
     text-shadow: 1px 1px #bbbbbb;
-    text-transform: uppercase
+    text-transform: capitalize;
 }
 
 .menu-purchase .vafla-items a {
@@ -144,7 +143,7 @@ main {
     cursor: pointer;
     color: white;
     font-weight: bold;
-    background: #c20c19;
+    background: #933C3F;
     text-shadow: 1px 0 black;
     padding: 7px 85px;
     text-align: center;
@@ -158,11 +157,10 @@ main {
 
 /*Map section*/
 .map {
-    border-top: 3px solid #c20c19;
-    border-bottom: 3px solid #c20c19;
+    border-top: 3px solid #933C3F;
+    border-bottom: 3px solid #933C3F;
     text-align: center;
     background: #bbbbbb;
-    opacity: 0.9;
     width: 80%;
     margin: 0 auto;
     padding-bottom: 30px;
@@ -173,9 +171,9 @@ main {
 }
 
 .map-title {
-    text-transform: uppercase;
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1.9em;
+    cursor: default;
     padding: 10px 0;
     color: black;
     text-shadow: 1px 1px white;
@@ -211,15 +209,14 @@ ul.footer-links li {
 
 ul.footer-links li a {
     text-shadow: 1px 1px #080808;
-    font-size: 1.1em;
+    font-size: 1.3em;
     color: white;
-    text-transform: uppercase;
     text-decoration: none;
 }
 
 ul.footer-links li a:hover {
     text-shadow: 0 1px #080808;
-    color: #c20c19;
+    color: #933C3F;
 }
 
 .secondsect {
@@ -236,8 +233,7 @@ ul.footer-links li a:hover {
 
 .copyright {
     text-shadow: 0 1px #080808;
-    font-size: 0.8em;
-    text-transform: uppercase;
+    font-size: 1em;
     text-align: center;
 }
 
@@ -246,7 +242,7 @@ ul.footer-links li a:hover {
 }
 
 .foot-title {
-    font-size: 1.2em;
+    font-size: 1rem;
     text-shadow: 1px 1px #080808;
     font-weight: bold;
     text-transform: uppercase;
@@ -272,12 +268,12 @@ ul.footer-links li a:hover {
 }
 
 .foot-socialmedia a:hover {
-    color: #c20c19;
+    color: #933C3F;
     cursor: pointer;
 }
 
 .foot-telephone {
-    margin-left: 40px;
+    margin-left: 63px;
     text-align: center;
     text-shadow: 1px 2px #080808;
 }
@@ -310,6 +306,6 @@ ul.footer-links li a:hover {
 }
 
 .foot-mail .email:hover {
-    color: #c20c19;
+    color: #933C3F; /* #c20c19 */
     cursor: pointer;
 }
