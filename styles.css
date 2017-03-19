@@ -18,6 +18,7 @@ body {
 
 main {
     background: white;
+    margin-top: 50px;
 }
 
 /*Purchase Menu*/
@@ -316,7 +317,7 @@ ul.footer-links li a:hover {
 #logo {
     text-align: center;
     height: 50px;
-    width: 200px;
+    width: 160px;
     float: left;
 }
 
@@ -325,6 +326,9 @@ header {
     height: 50px;
     text-align: center;
     background-color: #933C3F;
+    position: fixed;
+    top: 0;
+    z-index: 99;
 }
 
 #header_nav_bar_ul li {
