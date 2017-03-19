@@ -315,15 +315,15 @@ ul.footer-links li a:hover {
     cursor: pointer;
 }
 #logo {
-    text-align: center;
-    height: 50px;
+    margin-left: 10px;
+    height: 59px;
     width: 160px;
     float: left;
 }
 
 header {
     width: 100%;
-    height: 50px;
+    height: 64px;
     text-align: center;
     background-color: #933C3F;
     position: fixed;
@@ -339,7 +339,7 @@ header {
     font-size: 15px;
     font-family: sans-serif;
     font-weight: bold;
-    line-height: 50px;
+    line-height: 64px;
 }
 
 #header_nav_bar_ul li a {
@@ -351,7 +351,7 @@ header {
     width: 20px;
     height: 20px;
     float: right;
-    margin-top:15px;
+    margin-top:20px;
     margin-left: 12px;
     margin-right: 12px;
 }
