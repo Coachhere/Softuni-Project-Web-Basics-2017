@@ -63,7 +63,7 @@ main {
 }
 
 .items-navigation {
-    width: 34%;
+    width: 35%;
     margin-top: 65px;
 }
 
@@ -112,8 +112,7 @@ main {
 }
 
 .thumbnail {
-    width: 200px;
-    height: 200px;
+    width: 250px;
     border: 1px solid white;
 }
 
@@ -126,14 +125,13 @@ main {
 }
 
 .vafla-items img:hover {
-    width: 230px;
-    height: 230px;
+    width: 300px;
     cursor: pointer;
 }
 
 .vafla-items li {
     display: inline-block;
-    padding: 12px 5px;
+    padding: 12px 10px;
     margin: 12px 5px;
     box-shadow: 0 15px 20px -8px rgba(0, 0, 0, 0.25);
 }
@@ -192,6 +190,7 @@ main {
     display: inline-block;
     background: #4c1818;
     color: #ffffff;
+    font-size: 12px;
 }
 
 .menu-purchase .vafla-items .purchase-btn:hover {
