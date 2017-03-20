@@ -18,6 +18,7 @@ html, body {
 
 main {
     background: white;
+    margin-top: 80px;
 }
 
 /*Slider*/
@@ -342,7 +343,10 @@ header {
     width: 100%;
     height: 80px;
     text-align: center;
+    position: fixed;
+    top: 0;
     background-color: #4C1818;
+    z-index: 99;
 }
 
 #header_nav_bar_ul li {
