@@ -42,11 +42,12 @@
 
             <h2 class="nav-menu-filters">Филтри</h2>
             <ul class="nav-menu">
-                <li><a id="#nakov" href="#">Най-новите</a></li>
-                <li><a href="#">Най-продаваните</a></li>
-                <li><a id="#programmer" href="#">Специални</a></li>
-                <li><a id="#chokolate" href="#">Шоколадови</a></li>
-                <li><a href="#">За Вегани</a></li>
+                <li><a id="#nakov" href="#" onclick="fnNewest()">Най-новите</a></li>
+                <li><a href="#" onclick="fnBiggestSellers()">Най-продаваните</a></li>
+                <li><a id="#programmer" href="#" onclick="fnSpecial()">Специални</a></li>
+                <li><a id="#chokolate" href="#" onclick="fnChocolate()">Шоколадови</a></li>
+                <li><a href="#" onclick="fnVegan()">За Вегани</a></li>
+                <li><a id="remove_filters" href="#" onclick="fnRemoveFilters()">Премахни филтрите</a></li>
             </ul>
         </div>
         <div id="products_link" class="menu-purchase">

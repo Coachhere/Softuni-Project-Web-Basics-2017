@@ -29,3 +29,61 @@ $(function() {
         $('.scrollTop').css({opacity:'0.5'});
     });
 });
+
+
+function fnNewest(){
+
+    document.getElementById("nakov").style.borderColor="#4C1818";
+    document.getElementById("bio_maikata").style.borderColor="#4C1818";
+    document.getElementById("batka").style.borderColor="#ffffff";
+    document.getElementById("studentska").style.borderColor="#ffffff";
+    document.getElementById("izmerenie").style.borderColor="#ffffff";
+    document.getElementById("mandala").style.borderColor="#ffffff";
+    document.getElementById("zhulieta").style.borderColor="#ffffff";
+
+}
+function fnBiggestSellers(){
+    document.getElementById("nakov").style.borderColor="#ffffff";
+    document.getElementById("bio_maikata").style.borderColor="#ffffff";
+    document.getElementById("batka").style.borderColor="#4C1818";
+    document.getElementById("studentska").style.borderColor="#4C1818";
+    document.getElementById("izmerenie").style.borderColor="#4C1818";
+    document.getElementById("mandala").style.borderColor="#ffffff";
+    document.getElementById("zhulieta").style.borderColor="#ffffff";
+}
+function fnSpecial(){
+    document.getElementById("nakov").style.borderColor="#ffffff";
+    document.getElementById("bio_maikata").style.borderColor="#ffffff";
+    document.getElementById("batka").style.borderColor="#ffffff";
+    document.getElementById("studentska").style.borderColor="#ffffff";
+    document.getElementById("izmerenie").style.borderColor="#4C1818";
+    document.getElementById("mandala").style.borderColor="#ffffff";
+    document.getElementById("zhulieta").style.borderColor="#4C1818";
+}
+function fnChocolate(){
+    document.getElementById("nakov").style.borderColor="#4C1818";
+    document.getElementById("bio_maikata").style.borderColor="#ffffff";
+    document.getElementById("batka").style.borderColor="#ffffff";
+    document.getElementById("studentska").style.borderColor="#ffffff";
+    document.getElementById("izmerenie").style.borderColor="#ffffff";
+    document.getElementById("mandala").style.borderColor="#ffffff";
+    document.getElementById("zhulieta").style.borderColor="#4C1818";
+}
+function fnVegan(){
+    document.getElementById("nakov").style.borderColor="#ffffff";
+    document.getElementById("bio_maikata").style.borderColor="#4C1818";
+    document.getElementById("batka").style.borderColor="#ffffff";
+    document.getElementById("studentska").style.borderColor="#ffffff";
+    document.getElementById("izmerenie").style.borderColor="#4C1818";
+    document.getElementById("mandala").style.borderColor="#ffffff";
+    document.getElementById("zhulieta").style.borderColor="#ffffff";
+}
+function fnRemoveFilters(){
+    document.getElementById("nakov").style.borderColor="#ffffff";
+    document.getElementById("bio_maikata").style.borderColor="#ffffff";
+    document.getElementById("batka").style.borderColor="#ffffff";
+    document.getElementById("studentska").style.borderColor="#ffffff";
+    document.getElementById("izmerenie").style.borderColor="#ffffff";
+    document.getElementById("mandala").style.borderColor="#ffffff";
+    document.getElementById("zhulieta").style.borderColor="#ffffff";
+}

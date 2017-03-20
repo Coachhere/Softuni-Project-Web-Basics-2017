@@ -134,6 +134,7 @@ main {
     padding: 12px 10px;
     margin: 12px 5px;
     box-shadow: 0 15px 20px -8px rgba(0, 0, 0, 0.25);
+    border:5px solid white;
 }
 
 .vafla-title {
@@ -474,4 +475,9 @@ header {
     bottom: 35px;
     border: none;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.63);
+}
+#remove_filters {
+    font-size: 13px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
