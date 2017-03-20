@@ -145,30 +145,58 @@ main {
     text-shadow: 1px 1px #bbbbbb;
 }
 
+.menu-purchase .purchase-btn {
+    border: 1px solid black;
+    width: 180px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 4px;
+    outline: none;
+    background: none;
+}
+
 .menu-purchase .vafla-items a {
     text-decoration: none;
     color: black;
     background: white;
-    padding: 7px 85px;
-    font-family: 'Champagne', cursive;
+    padding: 0;
     text-align: center;
     font-weight: bold;
-    text-shadow: 0 1px #d9d9d9;
+    text-shadow: 0 1px #cbcbcb;
     outline: none;
-    border: 1px solid #d9d9d9;
+    border: none;
+
 }
 
-.menu-purchase .vafla-items a:hover {
+.menu-purchase .vafla-items .purchase-btn:hover .price{
     text-decoration: none;
     cursor: pointer;
-    color: white;
-    font-weight: bold;
-    font-family: 'Champagne', cursive;
-    background: #4C1818;
-    text-shadow: 1px 0 black;
-    padding: 7px 85px;
     text-align: center;
-    border: 1px solid #d9d9d9;
+    display: none;
+}
+
+
+.menu-purchase .vafla-items .fa-shopping-cart{
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    display: none;
+    line-height: 16px;
+}
+
+.menu-purchase .vafla-items .purchase-btn:hover .fa-shopping-cart{
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    background: #4c1818;
+    color: #ffffff;
+}
+
+.menu-purchase .vafla-items .purchase-btn:hover {
+    cursor: pointer;
+    background: #4c1818;
+    color: #ffffff;
 }
 
 .pricetag {
