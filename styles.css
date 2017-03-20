@@ -152,9 +152,11 @@ main {
     border-radius: 4px;
     outline: none;
     background: none;
+    line-height: 17px;
 }
 
-.menu-purchase .vafla-items a {
+.menu-purchase .vafla-items .price,
+.menu-purchase .vafla-items .fa-shopping-cart {
     text-decoration: none;
     color: black;
     background: white;
@@ -181,6 +183,7 @@ main {
     text-align: center;
     display: none;
     line-height: 16px;
+    text-shadow: none;
 }
 
 .menu-purchase .vafla-items .purchase-btn:hover .fa-shopping-cart{
