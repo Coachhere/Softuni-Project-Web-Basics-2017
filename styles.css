@@ -423,3 +423,21 @@ header {
 .about-us-info p:first-letter {
     text-transform: capitalize;
 }
+
+.scrollTop{
+    position: fixed;
+    outline:none;
+    width: 42px;
+    height: 42px;
+    color: #ffffff;
+    background-color: #933C3F;
+    padding: 10px;
+    font-size: 120%;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    right: 35px;
+    bottom: 35px;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.63);
+}
