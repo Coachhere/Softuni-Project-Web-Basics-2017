@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fdc5f542-f49f-4f8b-841b-acbe6b5f2267" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles.css" afterPath="$PROJECT_DIR$/styles.css" />
     </list>
     <ignored path="Softuni-Project-Web-Basics-2017.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -136,15 +134,15 @@
       <workItem from="1490028725288" duration="3000" />
       <workItem from="1490028806625" duration="647000" />
       <workItem from="1490029486732" duration="50000" />
-      <workItem from="1490033368944" duration="851000" />
+      <workItem from="1490033368944" duration="1192000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2939000" />
+    <option name="totallyTimeSpent" value="3280000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12946428" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
