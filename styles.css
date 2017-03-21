@@ -518,7 +518,6 @@ header {
 .scrollTop{
     position: fixed;
     outline:none;
-    cursor: pointer;
     width: 42px;
     height: 42px;
     color: #ffffff;
@@ -542,102 +541,4 @@ header {
     width: 85px;
     height: 26px;
     padding-right: 7px;
-}
-
-@media screen and(max-width: 1600px) and (min-width: 1420px) {
-    .items-title {
-        margin-left: 30px;
-    }
-
-    .nav-menu-filters {
-        padding-left: 40px;
-    }
-}
-
-.menu-purchase {
-    width: 100%;
-}
-
-.nav-menu {
-    margin-left: 40px;
-}
-
-@media screen and (max-width: 1420px) {
-    .items-title {
-        margin-left: 0;
-    }
-
-    .nav-menu-filters {
-        position: relative;
-        right: 125px;
-        padding-left: 0;
-    }
-
-    .nav-menu {
-        margin-left: 0;
-        position: relative;
-        right: 125px;
-    }
-    .nav-menu li a{
-        font-weight:500;
-    }
-
-    .menu-purchase {
-        width: 100%;
-    }
-
-    .scrollTop {
-        right: 15px;
-    }
-
-}
-
-@media screen and (max-width: 1350px) {
-    .map {
-        position: relative;
-        padding-bottom: 35%; // This is the aspect ratio
-    height: 0;
-        overflow: hidden;
-    }
-    .map iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100% !important;
-        height: 100% !important;
-    }
-    .nav-menu{
-        width: 52%;
-    }
-}
-
-@media screen and (max-width: 1110px) {
-    .foot-mail{
-        margin-left: 0;
-    }
-
-    .foot-telephone{
-        margin-left: -43px;
-    }
-    .foot-socialmedia{
-        text-align: left;
-        margin-left:45px;
-    }
-}
-
-@media screen and (max-width: 940px) {
-    .about-us{
-        padding: 50px 0;
-    }
-    .about-us-info {
-        padding: 0;
-    }
-}
-@media screen and (max-width: 640px){
-    .map {
-        width: 230%;
-    }
-    .vafla-items {
-        padding: 0 265px;
-    }
 }
