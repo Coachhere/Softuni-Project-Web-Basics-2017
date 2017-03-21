@@ -31,59 +31,50 @@ $(function() {
 });
 
 
+function fnDoAllTransparent() {
+    var opacity = 0.25;
+    document.getElementById("nakov").style.opacity=opacity;
+    document.getElementById("bio_maikata").style.opacity=opacity;
+    document.getElementById("batka").style.opacity=opacity;
+    document.getElementById("studentska").style.opacity=opacity;
+    document.getElementById("izmerenie").style.opacity=opacity;
+    document.getElementById("mandala").style.opacity=opacity;
+    document.getElementById("zhulieta").style.opacity=opacity;
+}
+
 function fnNewest(){
-
-    document.getElementById("nakov").style.borderColor="#4C1818";
-    document.getElementById("bio_maikata").style.borderColor="#4C1818";
-    document.getElementById("batka").style.borderColor="#ffffff";
-    document.getElementById("studentska").style.borderColor="#ffffff";
-    document.getElementById("izmerenie").style.borderColor="#ffffff";
-    document.getElementById("mandala").style.borderColor="#ffffff";
-    document.getElementById("zhulieta").style.borderColor="#ffffff";
-
+    fnDoAllTransparent();
+    document.getElementById("nakov").style.opacity=1;
+    document.getElementById("bio_maikata").style.opacity=1;
 }
 function fnBiggestSellers(){
-    document.getElementById("nakov").style.borderColor="#ffffff";
-    document.getElementById("bio_maikata").style.borderColor="#ffffff";
-    document.getElementById("batka").style.borderColor="#4C1818";
-    document.getElementById("studentska").style.borderColor="#4C1818";
-    document.getElementById("izmerenie").style.borderColor="#4C1818";
-    document.getElementById("mandala").style.borderColor="#ffffff";
-    document.getElementById("zhulieta").style.borderColor="#ffffff";
+    fnDoAllTransparent();
+    document.getElementById("batka").style.opacity=1;
+    document.getElementById("studentska").style.opacity=1;
+    document.getElementById("izmerenie").style.opacity=1;
 }
 function fnSpecial(){
-    document.getElementById("nakov").style.borderColor="#ffffff";
-    document.getElementById("bio_maikata").style.borderColor="#ffffff";
-    document.getElementById("batka").style.borderColor="#ffffff";
-    document.getElementById("studentska").style.borderColor="#ffffff";
-    document.getElementById("izmerenie").style.borderColor="#4C1818";
-    document.getElementById("mandala").style.borderColor="#ffffff";
-    document.getElementById("zhulieta").style.borderColor="#4C1818";
+    fnDoAllTransparent();
+    document.getElementById("izmerenie").style.opacity=1;
+    document.getElementById("zhulieta").style.opacity=1;
 }
 function fnChocolate(){
-    document.getElementById("nakov").style.borderColor="#4C1818";
-    document.getElementById("bio_maikata").style.borderColor="#ffffff";
-    document.getElementById("batka").style.borderColor="#ffffff";
-    document.getElementById("studentska").style.borderColor="#ffffff";
-    document.getElementById("izmerenie").style.borderColor="#ffffff";
-    document.getElementById("mandala").style.borderColor="#ffffff";
-    document.getElementById("zhulieta").style.borderColor="#4C1818";
+    fnDoAllTransparent();
+    document.getElementById("nakov").style.opacity=1;
+    document.getElementById("zhulieta").style.opacity=1;
 }
 function fnVegan(){
-    document.getElementById("nakov").style.borderColor="#ffffff";
-    document.getElementById("bio_maikata").style.borderColor="#4C1818";
-    document.getElementById("batka").style.borderColor="#ffffff";
-    document.getElementById("studentska").style.borderColor="#ffffff";
-    document.getElementById("izmerenie").style.borderColor="#4C1818";
-    document.getElementById("mandala").style.borderColor="#ffffff";
-    document.getElementById("zhulieta").style.borderColor="#ffffff";
+    fnDoAllTransparent();
+    document.getElementById("bio_maikata").style.opacity=1;
+    document.getElementById("izmerenie").style.opacity=1;
+    document.getElementById("mandala").style.opacity=1;
 }
 function fnRemoveFilters(){
-    document.getElementById("nakov").style.borderColor="#ffffff";
-    document.getElementById("bio_maikata").style.borderColor="#ffffff";
-    document.getElementById("batka").style.borderColor="#ffffff";
-    document.getElementById("studentska").style.borderColor="#ffffff";
-    document.getElementById("izmerenie").style.borderColor="#ffffff";
-    document.getElementById("mandala").style.borderColor="#ffffff";
-    document.getElementById("zhulieta").style.borderColor="#ffffff";
+    document.getElementById("nakov").style.opacity=1;;
+    document.getElementById("bio_maikata").style.opacity=1;;
+    document.getElementById("batka").style.opacity=1;;
+    document.getElementById("studentska").style.opacity=1;;
+    document.getElementById("izmerenie").style.opacity=1;;
+    document.getElementById("mandala").style.opacity=1;;
+    document.getElementById("zhulieta").style.opacity=1;;
 }
