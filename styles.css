@@ -17,7 +17,8 @@ html, body {
 }
 
 main {
-    background: white;
+    background-color: rgba(255, 255, 0, 0.05);
+
     margin-top: 80px;
 }
 
@@ -138,6 +139,7 @@ main {
     box-shadow: 0 15px 20px -8px rgba(0, 0, 0, 0.25);
     border:5px solid white;
     overflow: hidden;
+    background-color: #fff;
 }
 
 .vafla-title {
@@ -160,6 +162,7 @@ main {
     width: 20px;
     height: 20px;
     line-height: 20px;
+    text-shadow: none;
 }
 
 .vafla-title .fa-info .container-info {
@@ -195,6 +198,7 @@ main {
     outline: none;
     background: none;
     line-height: 17px;
+    background-color: rgba(255, 255, 0, 0.05);
 }
 
 .menu-purchase .vafla-items .price,
@@ -464,7 +468,6 @@ header {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    height: 400px;
     padding: 85px 0;
 }
 
