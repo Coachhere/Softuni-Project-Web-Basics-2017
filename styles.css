@@ -114,6 +114,8 @@ main {
 .thumbnail {
     width: 250px;
     border: 1px solid white;
+    padding-top: 30px;
+    padding-bottom: 40px;
 }
 
 .vafla-items {
@@ -125,7 +127,7 @@ main {
 }
 
 .vafla-items img:hover {
-    width: 300px;
+    width: 297px;
     cursor: pointer;
 }
 
@@ -135,6 +137,7 @@ main {
     margin: 12px 5px;
     box-shadow: 0 15px 20px -8px rgba(0, 0, 0, 0.25);
     border:5px solid white;
+    overflow: hidden;
 }
 
 .vafla-title {
@@ -143,6 +146,44 @@ main {
     font-weight: 600;
     margin-bottom: 10px;
     text-shadow: 1px 1px #bbbbbb;
+    position: relative;
+}
+
+.vafla-title p {
+    display: inline-block;
+}
+
+.vafla-title .fa-info {
+    background-color: #e6640c;
+    color: #fff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.vafla-title .fa-info .container-info {
+    height: 200px;
+    width: 270px;
+    background: #4c1818;;
+    top: -202px;
+    right: -1000px;
+    position: absolute;
+    opacity: 0;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: all 0.5s 0.7s;
+    font-size: 0.75em;
+    padding: 4px 10px;
+    text-align: left;
+    text-shadow: none;
+    line-height: 150%;
+}
+
+.vafla-title .fa-info:hover .container-info{
+    top: -202px;
+    right: -9px;
+    opacity: 0.85;
 }
 
 .menu-purchase .purchase-btn {
