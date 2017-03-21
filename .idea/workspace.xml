@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdc5f542-f49f-4f8b-841b-acbe6b5f2267" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles.css" afterPath="$PROJECT_DIR$/styles.css" />
     </list>
     <ignored path="Softuni-Project-Web-Basics-2017.iws" />
@@ -36,8 +35,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="204" column="47" lean-forward="true" selection-start-line="204" selection-start-column="47" selection-end-line="204" selection-end-column="47" />
+            <state relative-caret-position="210">
+              <caret line="482" column="1" lean-forward="true" selection-start-line="482" selection-start-column="1" selection-end-line="482" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -80,6 +79,8 @@
       <find>tu</find>
       <find>.thum</find>
       <find>300px</find>
+      <find>transi</find>
+      <find>media</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -186,15 +187,15 @@
       <workItem from="1490042261014" duration="1361000" />
       <workItem from="1490046369350" duration="42000" />
       <workItem from="1490046424835" duration="310000" />
-      <workItem from="1490048507554" duration="16014000" />
+      <workItem from="1490048507554" duration="18077000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21264000" />
+    <option name="totallyTimeSpent" value="23327000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12872024" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -386,14 +387,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="49" column="30" lean-forward="false" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-283">
@@ -402,10 +395,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="49" column="30" lean-forward="false" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="204" column="47" lean-forward="true" selection-start-line="204" selection-start-column="47" selection-end-line="204" selection-end-column="47" />
+        <state relative-caret-position="210">
+          <caret line="482" column="1" lean-forward="true" selection-start-line="482" selection-start-column="1" selection-end-line="482" selection-end-column="1" />
           <folding />
         </state>
       </provider>

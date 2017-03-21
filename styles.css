@@ -175,7 +175,7 @@ main {
     opacity: 0;
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    transition: all 0.5s 0.7s;
+    transition: all 0.3s 0.3s;
     font-size: 0.75em;
     padding: 4px 10px;
     text-align: left;
@@ -462,6 +462,7 @@ header {
     float: right;
 }
 
+
 .about-us {
     background: url("images/about_us_background.png") no-repeat center center fixed;
     background-size: cover;
@@ -470,6 +471,17 @@ header {
     -o-background-size: cover;
     padding: 85px 0;
 }
+
+@media screen and (max-width: 960px) {
+    .about-us {
+        padding: 15px 0;
+    }
+    .about-us-info {
+        width: 100%;
+        padding:0;
+    }
+}
+
 
 .about-us-info {
     width: 70%;
