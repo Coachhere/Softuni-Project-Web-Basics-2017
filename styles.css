@@ -517,3 +517,13 @@ header {
     border: none;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.63);
 }
+#validation_icons {
+    float: right;
+    padding-right: 133px;
+    padding-top: 5px;
+}
+.validation_images {
+    width: 85px;
+    height: 26px;
+    padding-right: 7px;
+}
